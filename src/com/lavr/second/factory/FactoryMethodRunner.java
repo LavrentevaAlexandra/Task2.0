@@ -14,7 +14,7 @@ public class FactoryMethodRunner {
     private static final Logger LOG = LogManager.getLogger();
     private static final String SPACE="( )+";
 
-    public static List<Vegetable> createSalad(String fileName) throws RuntimeException {
+    public static List<Vegetable> createSalad(String fileName) {
         List<Vegetable> listForSalad = new ArrayList<>();
         List<String> listOfDescriptions = ReaderFromFile.readVegetables(fileName);
         for (String description : listOfDescriptions) {
