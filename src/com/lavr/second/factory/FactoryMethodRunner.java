@@ -10,7 +10,8 @@ import java.util.List;
 /**
  * Created by 123 on 02.10.2016.
  */
-public class FactoryMethodRunner {
+public class FactoryMethodRunner  {
+    
     private static final Logger LOG = LogManager.getLogger();
     private static final String SPACE="( )+";
 
